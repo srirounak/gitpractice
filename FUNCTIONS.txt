@@ -1,0 +1,59 @@
+Important points to know in functions
+
+FUNCTIONS:
+===========
+Intro of multiple employes or multiple customers of a bank.
+1.A function is a block of code for some specific operation.
+2.Function Code is re-usable
+3.A function executes only when it is called.
+
+def 
+call 
+
+The rules for naming a function are a lot like rules for naming a variable:
+a-z;A-Z;0-9;_
+They must start with a letter or an underscore: _.
+They should be lowercase.
+They can have numbers. But Can't start with a no.
+They can be any length (within reason), but keep them short.
+They can't be the same as a Python keyword.
+don't include space.
+
+
+
+Types of functions:
+=====================
+1)Built-in function
+len,id,type,min,max
+2)User defined function
+
+Call a func in another func.
+
+========================
+
+def Bank_details():
+    print("The SBI branch is in : Hyderabad")
+    print("IFSC code for your bank is: 12345678")
+def Customer_details():
+    print("Acct holder name: Rounak")
+    print("Date of birth: 11-08-1995")
+    print("Available balance as of today: 10000000000000")
+Bank_details()
+Customer_details()
+
+Scope of variable:
+==================
+1)The location where we can find a variable and also access it if required is called the scope of a vartiable.
+2)Local and Global Variables.
+If both variable are there in a Script local as well as global>>> Local var is given priority.
+>>How to make local as global>> "global" 
+
+Func with arguments and parameter or positional arguments.
+
+>>>Func with return.
+>>>default argument display(a=1), if display (4), 4 is considered if no argument than 1 is considered.
+	default arg should be placed at last.
+>>> Func with keyword argument (a=4,b=8)
+>>> Variable lenght arguments(*arg)
+>>>Variable based keyword arg(**arg)
+
